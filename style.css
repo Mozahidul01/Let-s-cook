@@ -55,7 +55,7 @@ body {
   background: none;
   border: none;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .form-input:focus{
@@ -74,4 +74,10 @@ body {
 .search-btn:hover{
   background: #B7995A;
   transition: ease-in-out 400ms;
+}
+
+/* Meal Area */
+
+.meal-card {
+  min-height: 380px;
 }
