@@ -16,19 +16,19 @@ body {
 }
 
 .logo{
-  width: 240px;
-  height:62px;
+  width: 230px;
+  height:72px;
 }
 
 .nav-link{
   font-family: 'La Belle Aurore', cursive;
-  color: #1e3d59;
+  color: #1a3847;
   font-size: 24px;
   font-weight: 600;
 }
 
 .nav-link:hover, .active{
-  color: #ff6e40 !important;
+  color: #B7995A !important;
   transition: ease-in-out 400ms;
 }
 
@@ -64,7 +64,7 @@ body {
 }
 
 .search-btn{
-  background: #1e3d59;
+  background: #1a3847;
   color: #ffffff;
   padding: 8px 24px;
   border: none;
@@ -72,6 +72,6 @@ body {
 }
 
 .search-btn:hover{
-  background: #ff6e40;
+  background: #B7995A;
   transition: ease-in-out 400ms;
 }
