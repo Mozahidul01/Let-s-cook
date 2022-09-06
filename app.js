@@ -24,7 +24,7 @@ const createMealInfoDiv = (meal, formInput) => {
   const mealInfoSection = document.getElementById("meal-info-section");
   const mealInfoDiv = document.createElement("div");
   mealInfoDiv.className =
-    "col-xm-1 col-sm-1 col-md-3 p-3 d-flex justify-content-center";
+    "col-sm-1 col-md-6 col-lg-4 p-3 d-flex justify-content-evenly";
   mealInfoDiv.innerHTML = mealInfo;
   mealInfoSection.appendChild(mealInfoDiv);
 };
@@ -44,3 +44,4 @@ const showMealInfo = (data, formInput) => {
 };
 
 document.getElementById("inputSubmit").addEventListener("click", searchMeal);
+document.getElementById("formInput").addEventListener("submit", searchMeal);
