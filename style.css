@@ -25,11 +25,11 @@ body {
   color: #1a3847;
   font-size: 24px;
   font-weight: 600;
+  transition: color ease-in-out 400ms;
 }
 
 .nav-link:hover, .active{
   color: #B7995A !important;
-  transition: ease-in-out 400ms;
 }
 
 .navbar-toggler:focus{
@@ -69,15 +69,81 @@ body {
   padding: 8px 24px;
   border: none;
   border-radius: 33px;
+  transition: background ease-in-out 400ms;
 }
 
 .search-btn:hover{
   background: #B7995A;
-  transition: ease-in-out 400ms;
 }
 
 /* Meal Area */
 
+.meal-section{
+  text-decoration: none; 
+  color: #1a3847;
+  transition: scale ease-in-out 400ms;
+}
+
+.meal-section:hover{
+  color: #B7995A;
+  scale:1.05;
+}
+
 .meal-card {
   min-height: 380px;
+  width: 300px; 
+  border-radius: 10px
+}
+
+.meal-img {
+  width: 300px; 
+}
+
+.card-title{
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* Single Meal Area */
+
+
+.back-btn{
+  font-size:48px;
+  cursor: pointer;
+  color: #1a3847;
+  transition: color ease-in-out 400ms;
+}
+
+.back-btn:hover{
+  color: #B7995A;
+}
+
+.meal-details{
+  border-radius: 10px;
+  overflow: hidden;
+  border: none;
+}
+
+.single-meal-title{
+  margin-top:26px;
+  font-size: 24px;
+  color: #1a3847;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.meal-video{
+  display: inline-block;
+  text-decoration: none;
+  font-size: 18px;
+  background: #1a3847;
+  color: #fff;
+  padding: 12px 31px;
+  border-radius:24px;
+}
+
+.meal-video:hover{
+  background:#B7995A;;
+  color: #fff;
 }
