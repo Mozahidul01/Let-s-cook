@@ -127,7 +127,9 @@ body {
 
 .single-meal-title{
   margin-top:26px;
-  font-size: 24px;
+  font-size: 21px;
+  letter-spacing: 1px;
+  padding: 0 15px;
   color: #1a3847;
   font-weight: 600;
   text-transform: uppercase;
