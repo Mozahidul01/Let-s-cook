@@ -5,11 +5,8 @@
 - [Overview](#overview)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
+- [Built with](#built-with)
+- [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -21,38 +18,54 @@ This is a themealdb API-based project in which I utilized HTML, CSS, and Javascr
 
 Desktop View
 
-|![Home Page](/images/desktop-home.png)|![Search Result](/images/desktop-searched.png) |![Single Recipe](/images/desktop-single-recipes.png) |
+<div style="display:flex">
+     <div style="flex:1;padding-right:2px;">
+          <img src="/images/desktop-home.png" width="400"/>
+     </div>
+     <div style="flex:1;padding-left:2px;">
+          <img src="/images/desktop-searched.png" width="400"/>
+     </div>
+     <div style="flex:1;padding-left:4px;">
+          <img src="/images/desktop-single-recipes.png" width="400"/>
+     </div>
+</div>
 
 Mobile View
 
-![Mobile Screenshot](/images/mobile-view.png)
+<div style="display:flex">
+     <div style="flex:1;padding-right:2px;">
+          <img src="/images/mobile-home.png" width="400"/>
+     </div>
+     <div style="flex:1;padding-left:2px;">
+          <img src="/images/mobile-searched.png" width="400"/>
+     </div>
+     <div style="flex:1;padding-left:4px;">
+          <img src="/images/mobile-single-recipes.png" width="400"/>
+     </div>
+</div>
 
 ### Links
 
-- Solution URL: [https://github.com/Mozahidul01/EasyBank-Landing-Page]
+- Code URL: [https://github.com/Mozahidul01/Let-s-cook]
 
-- Live Site URL: [https://easybank-landing-page-fem.pages.dev/]
+- Live Site URL: [https://let-s-cook.pages.dev/]
 
 ### Built with
 
-- Semantic HTML5 markup
-- SCSS
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-
-### What I learned
-
-I have used SCSS for the first time to develop any website. It was a great learning process for me. I learned a lot about SCSS.
+- HTML5
+- CSS3
+- Bootstrap 5
+- JavaScript
+- API
 
 ### Useful resources
 
-- [Stackoverflow](https://stackoverflow.com/questions/22252472/how-to-change-the-color-of-an-svg-element#:~:text=You%20can't%20change%20the,or%20using%20inline.) - This helped me to change svg element color.
-- [Mdn web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas) - This is an amazing article which helped me to understand css grid area concept.
+- [TheMealDB](https://www.themealdb.com/api.php) - I have used this API to collect data.
+- [Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/introduction/) - I have used bootstrap as css framework.
 
 ## Author
 
-- Website - [https://www.mozahidul.com]
-- Frontend Mentor - [https://www.frontendmentor.io/]
-- Twitter - [https://twitter.com/mozahidul01]
+- [Website](https://www.mozahidul.com)
+- [Github](https://github.com/mozahidul01)
+- [LinkedIn](https://www.linkedin.com/in/mozahidul01/)
+- [Facebook](https://facebook.com/mozahidul01)
