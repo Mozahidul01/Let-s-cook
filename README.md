@@ -46,7 +46,7 @@ Mobile View
              <img src="/images/mobile-searched.png" width="400"/>
             </td>
             <td style="padding:1px">
-             <img src="/images/mobile-single-recipes.png" width="400"/>
+             <img src="/images/mobile-single-recipes.png" width="200"/>
             </td>
         </tr>
     </table>
