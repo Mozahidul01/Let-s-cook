@@ -25,10 +25,12 @@ Desktop View
              <img src="images/desktop-home.png" width="400"/>
            </td>
             <td style="padding:1px">
-             <img src="/images/desktop-searched.png" width="300"/>
+             <img src="/images/desktop-searched.png" width="400"/>
             </td>
+        </tr>
+        <tr>
             <td style="padding:1px">
-             <img src="/images/desktop-single-recipes.png" width="200"/>
+             <img src="/images/desktop-single-recipes.png" width="300"/>
             </td>
         </tr>
     </table>
