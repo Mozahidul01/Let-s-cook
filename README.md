@@ -19,15 +19,15 @@ This is a themealdb API-based project in which I utilized HTML, CSS, and Javascr
 Desktop View
 
 <div id="image-table">
-    <table style="border: none">
+    <table>
      <tr>
-         <td style="padding:2px">
+         <td style="padding:1px">
              <img src="images/desktop-home.png" width="400"/>
            </td>
-            <td style="padding:2px">
+            <td style="padding:1px">
              <img src="/images/desktop-searched.png" width="300"/>
             </td>
-            <td style="padding:2px">
+            <td style="padding:1px">
              <img src="/images/desktop-single-recipes.png" width="200"/>
             </td>
         </tr>
@@ -36,16 +36,20 @@ Desktop View
 
 Mobile View
 
-<div style="display:flex">
-     <div style="flex:1;padding-right:2px;">
-          <img src="/images/mobile-home.png" width="400"/>
-     </div>
-     <div style="flex:1;padding-left:2px;">
-          <img src="/images/mobile-searched.png" width="400"/>
-     </div>
-     <div style="flex:1;padding-left:4px;">
-          <img src="/images/mobile-single-recipes.png" width="400"/>
-     </div>
+<div id="image-table">
+    <table>
+     <tr>
+         <td style="padding:1px">
+             <img src="images/mobile-home.png" width="400"/>
+           </td>
+            <td style="padding:1px">
+             <img src="/images/mobile-searched.png" width="400"/>
+            </td>
+            <td style="padding:1px">
+             <img src="/images/mobile-single-recipes.png" width="400"/>
+            </td>
+        </tr>
+    </table>
 </div>
 
 ### Links
