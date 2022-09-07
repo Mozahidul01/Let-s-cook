@@ -21,17 +21,16 @@ Desktop View
 <div id="image-table">
     <table>
      <tr>
-         <td style="padding:1px">
+         <td style="border:none;">
              <img src="images/desktop-home.png" width="400"/>
            </td>
-            <td style="padding:1px">
+            <td style="border:none;">
              <img src="/images/desktop-searched.png" width="300"/>
             </td>
-            <td style="padding:1px">
+            <td style="border:none;">
              <img src="/images/desktop-single-recipes.png" width="200"/>
             </td>
         </tr>
-        <tr>
     </table>
 </div>
 
@@ -40,13 +39,13 @@ Mobile View
 <div id="image-table">
     <table>
      <tr>
-         <td style="padding:1px">
+         <td style="border:none">
              <img src="images/mobile-home.png" width="400"/>
            </td>
-            <td style="padding:1px">
+            <td style="border:none">
              <img src="/images/mobile-searched.png" width="400"/>
             </td>
-            <td style="padding:1px">
+            <td style="border:none">
              <img src="/images/mobile-single-recipes.png" width="200"/>
             </td>
         </tr>
