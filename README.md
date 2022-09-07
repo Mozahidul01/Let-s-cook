@@ -29,9 +29,7 @@ Desktop View
             </td>
         </tr>
         <tr>
-            <td style="padding:1px">
              <img src="/images/desktop-single-recipes.png"/>
-            </td>
         </tr>
     </table>
 </div>
