@@ -22,15 +22,15 @@ Desktop View
     <table>
      <tr>
          <td style="padding:1px">
-             <img src="images/desktop-home.png" width="400"/>
+             <img src="images/desktop-home.png"/>
            </td>
             <td style="padding:1px">
-             <img src="/images/desktop-searched.png" width="400"/>
+             <img src="/images/desktop-searched.png"/>
             </td>
         </tr>
         <tr>
             <td style="padding:1px">
-             <img src="/images/desktop-single-recipes.png" width="300"/>
+             <img src="/images/desktop-single-recipes.png"/>
             </td>
         </tr>
     </table>
