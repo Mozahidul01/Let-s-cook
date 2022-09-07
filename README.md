@@ -18,16 +18,20 @@ This is a themealdb API-based project in which I utilized HTML, CSS, and Javascr
 
 Desktop View
 
-<div style="display:flex">
-     <div style="flex:1;padding-right:2px;">
-          <img src="/images/desktop-home.png" width="400"/>
-     </div>
-     <div style="flex:1;padding-left:2px;">
-          <img src="/images/desktop-searched.png" width="400"/>
-     </div>
-     <div style="flex:1;padding-left:4px;">
-          <img src="/images/desktop-single-recipes.png" width="400"/>
-     </div>
+<div id="image-table">
+    <table>
+     <tr>
+         <td style="padding:2px">
+             <img src="images/desktop-home.png" width="200"/>
+           </td>
+            <td style="padding:2px">
+             <img src="/images/desktop-searched.png" width="300"/>
+            </td>
+            <td style="padding:2px">
+             <img src="/images/desktop-single-recipes.png" width="400"/>
+            </td>
+        </tr>
+    </table>
 </div>
 
 Mobile View
