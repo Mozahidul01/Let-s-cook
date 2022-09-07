@@ -19,16 +19,16 @@ This is a themealdb API-based project in which I utilized HTML, CSS, and Javascr
 Desktop View
 
 <div id="image-table">
-    <table>
+    <table style="border: none">
      <tr>
          <td style="padding:2px">
              <img src="images/desktop-home.png" width="400"/>
            </td>
             <td style="padding:2px">
-             <img src="/images/desktop-searched.png" width="400"/>
+             <img src="/images/desktop-searched.png" width="300"/>
             </td>
             <td style="padding:2px">
-             <img src="/images/desktop-single-recipes.png" width="400"/>
+             <img src="/images/desktop-single-recipes.png" width="200"/>
             </td>
         </tr>
     </table>
